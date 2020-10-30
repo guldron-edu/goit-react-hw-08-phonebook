@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  /* margin-right: 95px; */
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text:hover {
+  cursor: pointer;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 65px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.submenuShow {
+  composes: submenu;
+  display: block;
+}
+.textExit {
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.el {
+  background-color: #120873;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.appear {
+  opacity: 0.1;
+}
+.appearActive {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}

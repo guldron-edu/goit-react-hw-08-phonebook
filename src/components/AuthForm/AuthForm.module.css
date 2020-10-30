@@ -1,0 +1,106 @@
+.formWrapper {
+  padding-top: 200px;
+  background-color: #4f545d;
+  height: calc(100vh - 200px);
+}
+.authForm {
+  /* height: 475px; */
+  border-radius: 5px;
+  width: 475px;
+  background-color: #f1f2f4;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+
+  padding-bottom: 25px;
+
+  box-shadow: 0px 1px 3px 0px rgba(23, 16, 25, 0.75),
+    inset 0px -2px 0px 0px rgba(23, 16, 25, 0.2);
+}
+
+.title {
+  font-size: 36px;
+  font-family: "ProximaNova";
+  color: rgb(54, 56, 60);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 110px;
+  background-color: #c5c5c8;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.input {
+  height: 85px;
+  width: 385px;
+  padding-left: 30px;
+}
+input::placeholder {
+  font-size: 24px;
+  font-family: "ProximaNova";
+  color: rgb(111, 114, 120);
+  line-height: 1.25;
+}
+
+.wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+  width: 385px;
+  background-color: rgb(229, 231, 233);
+  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.004),
+    inset 0px 1px 3px 0px rgba(23, 16, 25, 0.45);
+}
+/* .input:first-child {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 4px;
+} */
+
+.btn {
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: ##2618b1;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    inset 0px 2px 0px 0px rgba(255, 255, 255, 0.4);
+}
+
+.btnText {
+  height: 75px;
+  width: 385px;
+  font-size: 28px;
+  font-family: "ProximaNova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(23, 16, 25, 0.55);
+}

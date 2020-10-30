@@ -1,0 +1,5 @@
+.register {
+  padding-top: 200px;
+  background-color: #4f545d;
+  height: calc(100vh - 200px);
+}
